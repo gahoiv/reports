@@ -1,0 +1,37 @@
+<dashboard-pie-chart></dashboard-pie-chart>
+
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12"
+       ba-panel
+       ba-panel-title="Module by Execution"
+       ba-panel-class="medium-panel traffic-panel">
+    <traffic-chart></traffic-chart>
+  </div>
+  <div class="col-lg-6 col-md-12 col-sm-12"
+      ba-panel
+      ba-panel-title="Build Pattern"
+      ba-panel-class="medium-panel">
+    <dashboard-line-chart></dashboard-line-chart>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 col-md-12">
+    <div ba-panel ba-panel-title="Contextual Table" ba-panel-class="with-scroll table-panel">
+      <div include-with-scope="app/pages/tables/widgets/contextualTable.html"></div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-12">
+    <div ba-panel ba-panel-title="Responsive Table" ba-panel-class="with-scroll table-panel">
+      <div include-with-scope="app/pages/tables/widgets/responsiveTable.html"></div>
+    </div>
+  </div>
+</div>
+
+<!--<div class="row">
+  <div class="col-lg-4 col-sm-6 col-xs-12">
+    <div ba-panel ba-panel-title="Weather" ba-panel-class="medium-panel with-scroll">
+      <blur-weather forecast="5"></blur-weather>
+    </div>
+  </div>
+</div>-->
